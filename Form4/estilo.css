@@ -1,0 +1,53 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: lightgray;
+    border: 1px solid grey;
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+div {
+    margin-top: 1em;
+}
+
+input, fieldset {
+    margin-bottom: 1em;
+}
+
+.largo {
+    width: 100%;
+}
+
+input[type=submit] {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+input[type=reset] {
+    color: green;
+    text-transform: uppercase; 
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+select {
+    padding: .5em;
+}

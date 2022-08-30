@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <form action="index.html" method="get">
+    <h2>Formulário</h2>
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome" maxlength="30" minlength="10" placeholder="Nome Completo" required>
+    <label for="codigo">Código: </label>
+    <input type="number" name="codigo" id="codigo" placeholder="000.000.000-00" min="1000" max="999999" required>
+    <label for="telefone">Telefone: </label>
+    <input type="tel" name="telefone" id="telefone" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="00 00000-0000"
+      required>
+    <label for="email">E-mail: </label>
+    <input type="email" name="email" id="email" placeholder="email@email.com" required>
+    <label for="nascimento">Data de Nascimento: </label>
+    <input type="date" name="nascimento" id="nascimento" required>
+    <label for="senha">Senha: </label>
+    <input type="password" name="senha" id="senha" placeholder="Senha" required>
+    <label for="cor">Cor Preferida: </label>
+    <input type="color" name="cor" id="cor">
+    <fieldset>
+      <legend> Ocupação: </legend>
+    <label for="aluno"><input type="radio" name="ocupacao" id="aluno" checked>
+      Aluno
+    </label>
+    <label for="professor"><input type="radio" name="ocupacao" id="professor">
+      Professor
+    </label>
+  </fieldset>
+  <fieldset>
+    <label for="status"><input type="checkbox" name="entendiado" id="entediado">Entediado</label>
+  </fieldset>
+    <div>
+      <input type="reset" name="redefinir" id="redefinir" value="Limpar">
+      <input type="submit" name="enviar" id="enviar" value="Enviar" required>
+    </div>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

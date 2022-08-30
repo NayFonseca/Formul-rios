@@ -1,0 +1,84 @@
+body {
+    background-color: #d1d1d1;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    text-align: center;
+    margin: 25px;
+}
+
+
+form {
+    background-color: lightgray;
+    border: 2px solid grey;
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 5px;
+    padding-left: 50px;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, .3));
+}
+
+section {
+    margin-left: 8%;
+    margin-top: 2em;
+}
+
+/* 
+#nome, #senha, #email {
+
+} */
+
+input {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+}
+label {
+    margin: 5px;
+    font-size: large;
+    font-weight: bold;
+} 
+
+#acessar {
+    background-color: rgb(193, 49, 49);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    width: 40%;
+    font-weight: bold;
+    transition: .5s;
+    margin-left: 130px;
+}
+
+#acessar:hover {
+   font-size: large;
+   color: rgb(193, 49, 49);
+   background-color:whitesmoke;
+}
+
+
+button {
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px;
+    color: rgb(193, 49, 49);
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .5s;
+    margin-left: 225px;
+    margin-bottom: 3em;
+}
+
+button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(193, 49, 49);
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(39, 39, 39);
+}
+
+h1 {
+    color: rgb(57, 57, 57);
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    padding: 5px;
+}
+
+input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+textarea {
+    margin: 10px;
+    display: block;
+    resize: none;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+footer {
+    position: absolute;
+    /* bottom: 0; */
+    padding: 0px;
+    font-size: smaller;
+    display: block;
+}

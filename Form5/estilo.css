@@ -1,0 +1,76 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+form {
+    background-color: lightgray;
+    border: 1px solid grey;
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+
+label, div {
+    display: block;
+    margin-top: .5em;
+}
+
+input{
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+}
+
+#cor {
+    border-radius: 0;
+    padding: 0;
+    width: 50px;
+}
+
+fieldset{
+    border-radius: 5px;
+    width: 40%;
+}
+
+#redefinir {
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 3px;
+    width: 20%;
+}
+
+#enviar {
+    border: 1px solid #222;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+
+    form {
+        width: 80%;
+        padding: 20px;
+    }
+    
+
+    input {
+        width: 80%;
+    }
+
+    fieldset{
+        display: flex;
+        width: 70%;
+      /*  text-align: left; */
+    }
+    
+    button {
+        width: 70%;
+    }
+}

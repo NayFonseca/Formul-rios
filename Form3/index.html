@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário de inscrição</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <h2>Formulário de inscrição</h2>
+  </header>
+  <main>
+    <form method="get">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Nome" name="nome" required>
+      </div>
+      <div>
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" placeholder="Sobrenome" name="nome" required>
+      </div>
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" placeholder="Idade" name="Idade" required>
+      </div>
+      <div>
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="date" required>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Informe o sexo</legend>
+          <div>
+            <input name="sexo" value="Feminino" type="radio">Feminino
+          </div>
+          <div>
+            <input name="sexo" value="Masculino" type="radio"> Masculino
+          </div>
+          <div>
+            <input name="sexo" value="Prefiro não informar" type="radio"> Prefiro não informar
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <div>
+            <legend>Informe a linguagem de interesse</legend>
+          </div>
+          <div>
+            <input type="checkbox" name="PHP" value="PHP">PHP
+          </div>
+          <div>
+            <input type="checkbox" name="JavaScript" value="JavaScript">JavaScript
+          </div>
+          <div>
+            <input type="checkbox" name="C#" value="C#">C#
+          </div>
+          <div>
+            <input type="checkbox" name="Delphi" value="Delphi">Delphi
+          </div>
+          <div>
+            <input type="checkbox" name="SQL" value="SQL">SQL
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <legend>Informe o estado:</legend>
+        <select required>
+          <option></option>
+          <option>AC</option>
+          <option>AL</option>
+          <option>AM</option>
+          <option>AP</option>
+          <option>BA</option>
+          <option>CE</option>
+          <option>DF</option>
+          <option>ES</option>
+          <option>GO</option>
+          <option>MA</option>
+          <option>MG</option>
+          <option>MS</option>
+          <option>MT</option>
+          <option>PA</option>
+          <option>PB</option>
+          <option>PE</option>
+          <option>PI</option>
+          <option>PR</option>
+          <option>RJ</option>
+          <option>RN</option>
+          <option>RO</option>
+          <option>RS</option>
+          <option>RR</option>
+          <option>SC</option>
+          <option>SE</option>
+          <option>SP</option>
+          <option>TO</option>
+        </select>
+      </div>
+      <div>
+        <label for="password">Nova senha:</label>
+        <input type="password" placeholder="Insira nova senha" name="password" required>
+      </div>
+      <div>
+        <label for="password">Confirmar Senha:</label>
+        <input type="password" placeholder="Confirme a senha" name="password" required>
+      </div> <br>
+      <div>
+        <textarea cols="50" rows="10" readonly disabled>
+              Vestibulum tincidunt venenatis sem. Nulla volutpat urna tortor, at gravida est placerat non. Suspendisse convallis nisl diam, nec sollicitudin augue volutpat pretium. Sed mattis placerat risus, id volutpat diam posuere quis. Quisque id dolor lacus. Nullam dapibus augue vel lacus luctus gravida. 
+              Nulla aliquet sem at ligula facilisis, nec rutrum tellus mattis. Vestibulum ac nisi id tortor bibendum dapibus non et sem. Mauris tristique purus orci, ut porttitor tellus ultricies et. Phasellus suscipit metus nec nulla efficitur, lacinia aliquet libero mollis. Suspendisse mollis aliquet semper. Aliquam vulputate odio nec congue vulputate. Nulla pharetra magna vitae lorem elementum viverra.
+            </textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="robo" required>
+        <label>Não sou um robô.</label>
+      </div>
+      <div>
+        <input type="checkbox" id="termos" required>
+        <label>Aceito os termos e condições.</label>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+</body>
+<footer>© 2022 Nayara Fonseca - Todos os direitos reservados.</footer>
+
+</html>
